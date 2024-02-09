@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="heart_icon.png" />
+    <script src="script.js"></script>
+    <title>To My Love</title>
+  </head>
+  <body>
+    <div id="outside">
+      <h2>Anki and Matt's Photo Display</h2>
+      <div id="t-grid">
+        <div id="main-left" class="grid-item">
+          <h3>Anki</h3>
+          <img
+            id="image1"
+            src="https://via.placeholder.com/300?text=placeholder"
+            alt=""
+          />
+          <label class="input-label" for="input1">
+            <input
+              id="input1"
+              type="file"
+              name=""
+              accept="image/*"
+              onchange="handleFileSelect(event, 'image1')"
+            />Choose image
+          </label>
+          <button id="button1" onclick="clearImage('image1')">Clear</button>
+        </div>
+        <div id="main-right" class="grid-item">
+          <h3>Matt</h3>
+          <img
+            id="image2"
+            src="https://via.placeholder.com/300/?text=placeholder"
+            alt=""
+          />
+          <label class="input-label" for="input2">
+            <input
+              id="input2"
+              type="file"
+              name=""
+              accept="image/*"
+              onchange="handleFileSelect(event, 'image2')"
+            />Choose image
+          </label>
+          <button id="button2" onclick="clearImage('image2')">Clear</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
