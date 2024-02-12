@@ -28,14 +28,14 @@ h2{
 
 .grid-item {
     /* margin-bottom: 20px; */
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 2%;
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    padding: 4%;
+    padding: 20px;
     justify-content: center;
     border-radius: 30px;
     border: 2px solid grey;
@@ -50,8 +50,8 @@ h2{
 }
 
 img {
-    width: 105px;
-    height: 140px;
+    width: 300px;
+    height: 400px;
     margin: 2px 20px;
     border-radius: 10px;
     border: 2px solid grey;
