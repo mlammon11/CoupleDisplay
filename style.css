@@ -8,8 +8,9 @@ body {
     background-color: pink;
 }
 
-h2{
-    display: inline-block; /* Ensures the padding adjusts based on text size */
+h2 {
+    display: inline-block;
+    /* Ensures the padding adjusts based on text size */
     border-radius: 3px;
     padding: 5px;
     color: black;
@@ -18,17 +19,7 @@ h2{
     border: 2px solid grey;
 }
 
-h3{
-    display: inline-block; /* Ensures the padding adjusts based on text size */
-    border-radius: 3px;
-    padding: 5px;
-    color: black;
-    background-color: white;
-    margin-bottom: 2%;
-    border: 2px solid grey;
-}
-
-#outside{
+#outside {
     margin-top: 3%;
     display: flex;
     flex-direction: column;
@@ -38,8 +29,8 @@ h3{
 
 .grid-item {
     /* margin-bottom: 20px; */
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: 2%;
     display: flex;
     flex-direction: row;
@@ -52,7 +43,7 @@ h3{
     background-color: #FFDEE3;
 }
 
-#t-grid{
+#t-grid {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,11 +61,11 @@ img {
     object-fit: cover;
 }
 
-.description{
+.description {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
 
 @media (min-width: 576px) {
@@ -86,11 +77,12 @@ img {
         max-width: 1150px;
     }
 
-    img{
+    img {
         width: 200px;
         height: 300px;
         margin: 2px;
     }
+
     .grid-item {
         margin-left: 3%;
         margin-right: 3%;
