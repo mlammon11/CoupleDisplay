@@ -18,6 +18,16 @@ h2{
     border: 2px solid grey;
 }
 
+h3{
+    display: inline-block; /* Ensures the padding adjusts based on text size */
+    border-radius: 3px;
+    padding: 5px;
+    color: black;
+    background-color: white;
+    margin-bottom: 2%;
+    border: 2px solid grey;
+}
+
 #outside{
     margin-top: 3%;
     display: flex;
